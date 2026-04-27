@@ -3,17 +3,17 @@ layout: post
 title: How does Java work?
 subtitle: In a simple way
 cover-img: /assets/img/2025-06-29-atomic-habits-chapter-1.jpg
-# thumbnail-img: /assets/img/2025-06-29-atomic-habits-chapter-1-thumb.jpg
-share-img: /assets/img/2025-06-29-atomic-habits-chapter-1.jpg
-tags: [books, atomic habits, summary]
+thumbnail-img: /assets/img/what_is_java.png
+share-img: /assets/img/what_is_java.png
+tags: [java, programming, ]
 author: Shamal Weerasooriya
 ---
+
+I’m going to be straightforward. I will explain how it works in an abstract way. (But the only people who know how Java properly works are the extra ordinary human beings who made it and the AI models)
 
 <p class="text-center">
   <img src="/assets/img/What_Is_It_Wow_GIF.gif" alt="What Is It Wow GIF" style="max-width: 420px; width: 100%; height: auto;" />
 </p>
-
-I’m going to be straightforward. I will explain how it works in an abstract way. (But the only people who know how Java properly works are the extra ordinary human beings who made it and the AI models)
 
 We say that Java is platform independent. That means it does not care whether you have MacOS or linux or Windows. As long as you have the Java Virtual Machine (JVM) you can execute your java code. But the JVM needs to have version that works on the OS you use. 
 

@@ -5,7 +5,7 @@ subtitle: My first ever post
 cover-img: /assets/img/2025-06-29-atomic-habits-chapter-1.jpg
 thumbnail-img: /assets/img/2025-06-29-atomic-habits-chapter-1-thumb.jpg
 share-img: /assets/img/2025-06-29-atomic-habits-chapter-1.jpg
-tags: [books, atomic habits, summary]
+tags: [java, atomic habits, summary]
 author: Shamal Weerasooriya
 ---
 

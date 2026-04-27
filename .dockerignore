@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.vagrant
+.bundle
+Gemfile.lock
+vendor
+tmp
+log
+node_modules
+*.gem

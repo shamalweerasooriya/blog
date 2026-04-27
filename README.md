@@ -11,6 +11,7 @@
 ## Table of contents
 
 - [Features](#features)
+- [Run in production with Docker](#run-in-production-with-docker)
 - [Sponsors 🏆](#sponsors)
 - [**Build your website in 3 steps**](#build-your-website-in-3-steps)
 - [Plans](#plans)
@@ -39,6 +40,26 @@ __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the lat
 - **Search**: Let users easily find any page using a Search button in the navigation bar.
 - **Photos support**: Any page can have a full-width cover photo and thumbnail.
 - **RSS**: An RSS feed is automatically created, so you can even host a podcast easily with Beautiful Jekyll.
+
+## Run in production with Docker
+
+Yes, this site can run in production with Docker.
+
+Requirements:
+
+- Docker Engine 24+ (or any recent Docker version that supports multi-stage builds)
+- Optional: Docker Compose v2 if you prefer `docker compose` commands
+
+Build and run:
+
+```bash
+docker build -t beautiful-jekyll-site .
+docker run --rm -p 8080:80 beautiful-jekyll-site
+```
+
+Then open `http://localhost:8080`.
+
+The Docker build ignores a local `Gemfile.lock` and `.bundle` directory (see `.dockerignore`) so the image does not pick up a host lockfile that pins `rake` 12.x, which breaks `sass-embedded` on Ruby 3.3.
 
 <h2 id="sponsors">Sponsors 🏆</h2>
 
